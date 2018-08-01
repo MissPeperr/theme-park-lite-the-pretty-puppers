@@ -1,6 +1,7 @@
 "use strict";
 
 //create initial object to hold all the 'db' methods
+//holds all functions
 let dbCalls = {};
 
 // hold on to the data locally within this module - may need it again.
@@ -8,6 +9,19 @@ let parkInfo = {};
 let attractions = {};
 let attractionTypes = {};
 let areaTypes = {};
+
+let testArray = [];
+
+testArray.push(parkInfo);
+
+console.log("test", testArray);
+
+// let parseData = (data) => {
+//   data..forEach((element) => {
+//      legoItems.push(element);
+//   });
+//   return legoItems;
+// };
 
 
 dbCalls.fetchParkInfo = () => {
@@ -68,5 +82,6 @@ dbCalls.getParkInfo = () => {
 };
 
 
+console.log("test2:", parkInfo);
 
 module.exports = dbCalls;
