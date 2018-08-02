@@ -1,6 +1,7 @@
 'use strict'
 
 
+let area = document.querySelector("#put-attractions-here");
 
 function newAttractionCard (name, description) {
         return `<div id='attraction-container'>

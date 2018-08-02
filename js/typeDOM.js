@@ -19,20 +19,6 @@ function writeAreaTypeToDOM(prop){
     document.querySelector("#attractionType").innerHTML += prop;
 }
 
-console.log("type array", typeArray);
-
-// let newArray = typeArray.map((item) =>{
-//     let letterArray =  item.split("");
-//     let capital = letterArray[0].toUpperCase();
-//     return capital;
-//     console.log("letterarray", capital);
-// });
-
-let newArray = typeArray.forEach((index) => {
-    index.split("");
-});
-
-console.log("testin array stuff:", newArray);
 
 
 

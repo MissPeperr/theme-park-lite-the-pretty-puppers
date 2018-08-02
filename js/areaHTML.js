@@ -8,6 +8,9 @@ let populateAreaDIV = (color, name, description) => {
                 <p id='areaP'>
                 ${description}
                 </p>
+                <div id='put-attractions-here'>
+
+                </div>
             </div>`
 }
 
