@@ -81,7 +81,11 @@ dbCalls.getParkInfo = () => {
   return parkInfo;
 };
 
-dbCalls.getAttractionAreas = () => {
+dbCalls.getTypes = () => {
+ return attractionTypes;
+};
+
+dbCalls.getAreas = () => {
   return areaTypes;
 }
 

@@ -14,3 +14,12 @@
     font-family: "Mouse Memoirs", sans-serif;
     text-transform: capitalize;
 }
+
+.type-info {
+    color: snow;
+    text-align: left;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 2.5em;
+    font-family: "Mouse Memoirs", sans-serif;
+    text-transform: capitalize;
+}
