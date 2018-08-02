@@ -12,6 +12,6 @@ areaDB.fetchAreas()
    areaInfo = result;
    console.log("fetchAreaInfo:", areaInfo);
    // use function from parkInfoDOM
-    // areaDOM(areaInfo);
+    areaDOM(areaInfo);
 });
 

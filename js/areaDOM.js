@@ -1,12 +1,11 @@
 "use strict";
 
-let areaHTML = require("./areaHTML");
+let createAreaHTML = require("./areaHTML");
 
 function listAreaInfo (areaKey) {
     areaKey.forEach(prop => {
         // for each item in the parkInfo, use the createParkHTML function we made on the parkInfoHTML.js file
-        let areaComponent = createAreaHTML(prop.color, prop.description, prop.location);
-        console.log("areaComponent", areaComponent);
+        let areaComponent = createAreaHTML(prop.colorTheme, prop.name, prop.description);
         writeAreaInfoToDOM(areaComponent);
     });
 }
