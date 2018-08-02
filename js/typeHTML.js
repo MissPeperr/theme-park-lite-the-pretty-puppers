@@ -1,8 +1,8 @@
 "use strict";
 
 let typeDIV = (name) => {
-    return `<div>
-                <h2>
+    return `<div id="type-container">
+                <h2 id="typeinfo">
                 ${name}
                 </h2>
                 
