@@ -5,3 +5,6 @@ let parkInfo = require("./parkInfo.js");
 // let parkInfoDOM = require("./parkInfoDOM.js");
 let attractionInfo = require("./attractionInfo");
 let areaInfo = require("./areaInfo");
+
+
+console.log("Hello, Madison!");
