@@ -12,4 +12,5 @@ db.fetchTypes()
    // use function from typeInfoDOM
     typeDOM(typeInfo);
     console.log("typeinfor",typeInfo)
+
 });

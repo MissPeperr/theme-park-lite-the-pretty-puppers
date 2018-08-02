@@ -3,6 +3,8 @@
 let createAttractionHTML = require("./attractionHTML");
 
 let parkDIV = document.querySelector("#parkAttractions");
+let area = document.querySelector("#put-attractions-here")
+
 
 function listAttractionInfo (attractionKey) {
     attractionKey.forEach(prop => {
