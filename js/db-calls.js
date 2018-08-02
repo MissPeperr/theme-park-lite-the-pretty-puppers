@@ -81,6 +81,10 @@ dbCalls.getParkInfo = () => {
   return parkInfo;
 };
 
+dbCalls.getAttractionAreas = () => {
+  return areaTypes;
+}
+
 
 console.log("test2:", parkInfo);
 

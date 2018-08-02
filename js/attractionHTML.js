@@ -3,8 +3,8 @@
 
 let area = document.querySelector("#put-attractions-here");
 
-function newAttractionCard (name, description) {
-        return `<div id='attraction-container'>
+function newAttractionCard (name, description, color) {
+        return `<div id='attraction-container' style='background-color: #${color}'>
         <h2 id='attraction-h2'>
         ${name} 
         </h2>
@@ -13,6 +13,5 @@ function newAttractionCard (name, description) {
         </p>`
 
 }
-
 
 module.exports = newAttractionCard;

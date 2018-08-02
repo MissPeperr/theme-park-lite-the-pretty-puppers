@@ -14,4 +14,6 @@ let populateAreaDIV = (color, name, description) => {
             </div>`
 }
 
+
+
 module.exports = populateAreaDIV;
